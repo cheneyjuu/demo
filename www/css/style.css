@@ -1,0 +1,8 @@
+/* Empty. Add your own CSS if you like */
+.text-muted{
+    color: #444;
+    text-decoration: none;
+}
+label{
+    line-height: 2.2em;
+}

@@ -1,0 +1,28 @@
+<ion-view title="合同列表">
+  <ion-content ng-controller="ContractCtrl">
+    <ion-list>
+      <ion-item ng-repeat="contractObj in contractList" href="#/details/{{contractObj.PCONTRACT_NO}}">
+        <div>
+          <label for="contractNumber">外部合同号：
+            <span id="contractNumber">{{contractObj.PCONTRACT_NO}}</span>
+          </label>
+        </div>
+        <div>
+          <label for="contractSupplier">供应商名称：
+            <span id="contractSupplier">{{contractObj.PROVIDER_NAME}}</span>
+          </label>
+        </div>
+        <div>
+          <label for="contractOwner">合同类型：
+            <span id="contractOwner">{{contractObj.BUSINESS_TYPE_CONTRACT}}</span>
+          </label>
+        </div>
+        <div>
+          <label for="contractTime">起始有效期：
+            <span id="contractTime">{{contractObj.BEGIN_VALID_DATE}}</span>
+          </label>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
