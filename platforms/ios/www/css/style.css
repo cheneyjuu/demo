@@ -1,0 +1,87 @@
+/* Empty. Add your own CSS if you like */
+ .text-muted {
+    color: #444;
+    text-decoration: none;
+}
+label {
+    line-height: 2.2em;
+}
+.float-right {
+    float: right;
+}
+.button-container {
+    width: 100%;
+    margin: 20px 0;
+}
+.button-container button {
+    display: inline-block;
+    width: 40%;
+}
+.button-container button:first-child {
+    margin-left: 5%;
+}
+.button-container button:last-child {
+    margin-right: 5%;
+}
+.arrow:nth-child(odd) {
+    display: block;
+    border-left: 5px solid #4A87EE;
+}
+.arrow:nth-child(even) {
+    display: block;
+    border-left: 5px solid #ef4e3a;
+}
+.arrow::after {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    display: block;
+    margin-top: -8px;
+    color: #ccc;
+    content:"\f125";
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 16px;
+    font-family:'Ionicons';
+    line-height: 1;
+    speak: none;
+}
+#contractSupplier {
+    white-space: normal;
+}
+/*.item>div {
+    margin-bottom: 10px;
+}
+.item>div:last-child {
+    margin-bottom: 0;
+}*/
+.item:nth-child(even) > .icon {
+    color: #ef4e3a;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+    /*margin: 200px;*/
+}
+.bar {
+    /*height: 5em;*/
+}
+.title.ng-binding {
+    height: 100%;
+    /*padding-top: 1.2em;*/
+}
+/*.bar .button {
+    padding-top: 1.2em;
+    min-height: 3em;
+}*/
+/*.ion-paperclip {
+    font-size: 1.4em;
+    margin-top: 1em;
+    color: #4A87EE;
+}*/
